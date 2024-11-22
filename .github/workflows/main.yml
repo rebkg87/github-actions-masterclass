@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "Testing the code"
-          pwd
+          git clone https://github.com/rebkg87/github-actions-masterclass.git
           ls-al
 
