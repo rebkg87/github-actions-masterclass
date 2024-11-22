@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "Hello, world!"
-          pwd
-          ls -al 
+          git clone https://github.com/apix23/github-actions-masterclass.git
+          ls -la
       
