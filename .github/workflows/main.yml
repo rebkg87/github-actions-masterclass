@@ -7,7 +7,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          git clone https://github.com/apix23/github-actions-masterclass.git
-          ls -la
+      - uses: actions/checkout@v4
+      - run : npm run test
+
       
